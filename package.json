@@ -1,0 +1,23 @@
+{
+  "name": "jsonflash",
+  "version": "1.0.0",
+  "description": "a tool to accelerate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "benchmark": "node benchmark",
+    "gen-schema": "typescript-json-schema ./test/interface/**/*.ts Test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "accelerate"
+  ],
+  "author": "francis feng",
+  "license": "MIT",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "fast-json-stringify": "^1.5.4",
+    "typescript-json-schema": "^0.24.1"
+  }
+}
